@@ -922,12 +922,24 @@
   resolved "https://registry.yarnpkg.com/@date-io/core/-/core-1.3.8.tgz#a20da7125f1444631dd96a6e8baa8982665aaa95"
   integrity sha512-XlvpzhipF/badZEJPAfgXRX9bFG2UpFl1T6O0hn1RzWJf3yexf9/M2wcEm6jh7RVyrlSayttkXtGPqVPdoJQ7Q==
 
+"@date-io/core@^2.13.2":
+  version "2.13.2"
+  resolved "https://registry.yarnpkg.com/@date-io/core/-/core-2.13.2.tgz#63983fbe2816a758d3fe51857e88d9170c40073c"
+  integrity sha512-lAUDhC5kpzlxa00BxfqENBgerbGI5ojuKQpXLGZCTrqT1rQR+vrp2rwf0I+H2KlM2z3N1ldyQuANmzZ+ehomog==
+
 "@date-io/date-fns@^1.3.8":
   version "1.3.8"
   resolved "https://registry.yarnpkg.com/@date-io/date-fns/-/date-fns-1.3.8.tgz#820553ba0136027b20d3a696ab9b300f2fa23c5c"
   integrity sha512-vlMRbaCIC1NTjGXL8QWsc9v/7EJwtciUYWCYw1+PXkmpPr1W4GbckvLYvFhGSlQ8ibIh0JKB1yP4bozSb3Tu+w==
   dependencies:
     "@date-io/core" "^1.3.8"
+
+"@date-io/dayjs@^2.13.2":
+  version "2.13.2"
+  resolved "https://registry.yarnpkg.com/@date-io/dayjs/-/dayjs-2.13.2.tgz#b337e92bd9d3fe896619f82d68f23209e2b03f8f"
+  integrity sha512-uP/Bvr+QfzpLN3JGX/x3uJtGnnSWckn7e500Wn+pVNVvIleaXSJxDbE5IAz1P7WwQrnSuxuBI1e6Sl8J/njzKQ==
+  dependencies:
+    "@date-io/core" "^2.13.2"
 
 "@emotion/hash@^0.7.1":
   version "0.7.2"
